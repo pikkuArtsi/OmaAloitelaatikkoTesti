@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2017, 5:04:53 PM
+    Author     : haaar
+*/
+body{
+    background-color: #FC600A; /* Orange */
+}
+/* Alatunnisteen täyte */
+.container-fluid{
+    padding: auto; /* 25px; */
+}
+
+.omaH2{
+    margin-top: 30px; /* etäisyys yläreunasta */
+}
+
+/* Päävalikon säädöt */
+.navbar {
+    margin-bottom: 0;
+    background-color: #092834;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+    /* opacity:0.9; */
+}
+
+/* valikon logotekstin väri */
+.navbar-brand { 
+    color: #FC600A !important;
+}
+
+/* Jumbotronin aliotsikko */
+.leipateksti{
+    color: #F7E3D4; /* vaalea */
+}
+
+/* Jumbotronin säädöt */
+.jumbotron { 
+    font-family: Montserrat, sans-serif;
+    background-color: #FC600A; /* Orange */
+    color: #091D34;
+    padding-bottom: auto;
+    
+}
+
+/* Alatunnisteen säädöt */
+footer {
+    background-color: #092834;
+    color: #FC600A;
+    /* padding: 0px; */
+    /* opacity:0.9; */
+}
+
+/* Taulukon linkin väri */
+table a {
+    color: #ffea00;
+}
+
+/* Taulun linkin hooverin väri */
+table a:hover {
+    color: #dd2c00;
+    text-decoration: none;
+}

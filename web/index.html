@@ -9,8 +9,45 @@ and open the template in the editor.
         <title>Aloitelaatikko</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+        <link href="bootstrap4/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap4/css/signin.css" rel="stylesheet" type="text/css"/>
+        
     </head>
     <body>
-        <h1>Tervetuloa sähköiseen aloitelaatikkoon</h1>
+        <!-- Päävalikko -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Aloitelaatikko</a>
+                </div>
+                
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <header>
+            <div class="jumbotron jumbotron-fluid text-center">
+                <h1>Sähköinen aloitelaatikko</h1>                
+                <p class="leipateksti">Kirjaudu sisään, tee aloite ja vaikuta!</p>
+                <form class="form-signin" name="lisays" action="login" method="post">                    
+                    <input class="form-control" type="text" name="kayttajatunnus" placeholder="Käyttäjätunnus" required>
+                    <input class="form-control" type="password" name="salasana" placeholder="Salasana" required>                
+                    <input class="btn btn-lg btn-success btn-block" type="submit" value="Kirjaudu" name="kirjaudu" />                
+                </form>
+            </div>
+        </header>
+
+        <!-- Alatunniste -->
+        <footer class=" container-fluid text-center fixed-bottom">
+            <br>
+            <p>Sähköinen aloitelaatikko by Arto Haapanen (&copy;) </p>            
+        </footer>
+
     </body>
 </html>

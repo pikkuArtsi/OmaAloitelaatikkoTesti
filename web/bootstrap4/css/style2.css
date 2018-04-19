@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2017, 12:15:26 AM
+    Author     : haaar
+*/
+body{
+    background-color: #F0F7D4;
+    font-family: Montserrat, sans-serif;
+}
+/* Valikon säädöt */
+.navbar {
+    background-color: #092834;
+    margin-bottom: 10px;
+}
+/* Otsikon väri */
+.bg-heading{
+    color: #347B98;
+}
+/* Otsikon väri */
+.bg2-heading{
+    color: #fe2712;
+}
+
+/* valikon logotekstin väri */
+.navbar-brand { 
+    color: #B2D732 !important;
+}
+
+/* Taustakuva */
+.bg { 
+    /* The image used */
+    background-image: url("../img/bg-masthead.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;                
+}
+
+/* Alatunnisteen säädöt */
+footer {
+    background-color: #092834;
+    color: #B2D732;
+}
